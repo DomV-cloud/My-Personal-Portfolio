@@ -1,0 +1,29 @@
+.navigation{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 20px;
+    font-size: 1.5vw;
+    
+   
+}
+.navigation a{
+    color: white;
+    margin-top: 20px;
+    margin-right: 40px;
+    font-weight: bolder;
+    text-decoration: none;
+    background-image: linear-gradient(rgb(38, 208, 124), rgb(38, 208, 124));
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+.navigation a:hover, 
+.navigation a:focus {
+    background-size: 100% 2px;
+    
+}
+
+
